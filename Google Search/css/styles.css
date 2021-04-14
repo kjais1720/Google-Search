@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    font-family: arial, sans-serif;
+    padding: 2% 5%;
+    overflow: scroll;
+}
+
+/* Navigation */
+
+nav ul{
+    list-style-type: none;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    
+}
+
+li{
+    display: inline;
+    margin: 10px;
+    font-size: small;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.middle{
+    margin: 2rem auto;
+
+}
+
+.logo{
+    width: 272px;
+    margin: 10px auto;
+}
+
+.query-box{
+    position: relative;
+}
+
+#query{
+    position: relative;
+    left: 40px;
+    width: 80%;
+    max-width: 720px;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border-radius: 0 2cm 2cm 0;
+    outline: none;
+    border: solid 1px rgb(216, 212, 212);
+    border-left: none;
+
+}
+
+
+#submit{
+    padding: 10px 15px;
+    background-color: rgb(245, 243, 243);
+    border: solid 1px transparent;
+    border-radius: 4px;
+}
+
+    #submit:hover{
+        border: solid 1px rgb(172, 169, 169);
+    }
+
+.search-icon{
+    color: rgb(187, 185, 185);
+    padding: 8.45px 15px;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+    border-radius: 2cm 0 0 2cm;
+    border: solid 1px rgb(216, 212, 212);
+    border-right: none;
+    position: absolute;
+    z-index: -1;
+}
+
+    .query-box:hover .search-icon, .query-box:hover #query{
+        box-shadow: 1px 1px 5px rgb(172, 169, 169);
+    }
+
+
